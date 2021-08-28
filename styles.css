@@ -1,0 +1,229 @@
+*{
+    margin: 0 auto;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+body{
+    background: black;
+    color: white;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first-icon {
+    stroke: #fff;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 60px;
+    }
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    color: #f7d7c8;
+    font-family: Merriweather;
+    font-size: 56px;
+    font-weight: 400;
+    margin-bottom: 0;
+    text-align: center;
+}
+#adut{
+    width: 340px;
+    height: 340px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+#bio-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#name{
+    color: #f7d7c8;
+    text-align: center;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: 300;
+}
+#bio{
+    align-items: center;
+}
+#bio-article{
+    color: #999999;
+    width: 570px;
+    height: 280px;
+    margin-top: 20px;
+    margin-right: 60px;
+    margin-left: 60px;
+    font-family: Open Sans;
+    text-align: justify;
+    font-size: 16px;
+    line-height: 1.8;
+}
+#social-icons{
+    margin-top: 30px;
+    margin-bottom: 90px;
+    width: 212px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+#social-icons svg{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+#mid{
+    display: flex;
+}
+#left{
+    width: 50%;
+}
+h1{
+    font-family: Merriweather;
+    color: #f7d7c8;
+    font-size: 40px;
+    
+}
+#sample{
+    color: white;
+    font-size: 16px;
+    font-family: Ubuntu;
+    letter-spacing: 4px;
+}
+#right{
+    width: 50%;
+}
+#we{
+    font-size: 20px;
+    font-family: Ubuntu;
+    color: #f7d7c8;
+}
+#note{
+    color: white;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8;
+}
+#chat{
+    color: white;
+    margin-left: 0;
+    font-size: 20px;
+    font-family: Ubuntu;
+    padding-top: 4px;
+}
+section{
+    display: flex;
+}
+section svg{
+    margin-right: 0;
+}
+#one{
+    text-align: center;
+    margin-top: 120px;
+    font-family: serif;
+    margin-bottom: 40px;
+}
+#below hr{
+    width: 750px;
+    margin-left: 140px;
+}
+#note2{
+    font-weight: 700;
+}
+#below svg{
+    color: white;
+    text-align: center;
+    padding-bottom: 45px;
+    padding-top: 45px;
+}
+#below{
+    text-align: center;
+}
+#below p{
+    font-family: Ubuntu;
+    margin-bottom: 90px;
+}
+#images{
+    display: grid;
+    grid-template-columns: 340px 340px 340px;
+    column-gap: 30px;
+    row-gap: 40px;
+    align-content: center;
+    align-items: center;
+}
+#images img{
+    border-radius: 40px;
+}
+button{
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    color: #f7d7c8;
+    background: black;
+    border: #f7d7c8 block 2px;margin-bottom: 120px;
+}
+#bottom{
+    display: flex;
+}
+#left2{
+    width: 50%;
+}
+#left2 h5{
+    font-size: 20px;
+    font-family: Ubuntu;
+    color: #f7d7c8;
+}
+.par{
+    font-size: 17px;
+    font-family: Ubuntu;
+    margin-top: 10px;
+}
+#right2{
+    width: 50%;
+}
+#right2 img{
+    width: 180px;
+    height: 105px;
+}
+#last h1{
+    margin-top: 120px;
+}
+#last{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#last p a{
+    text-decoration: none;
+    color: white;
+}
+#last p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+#last img{
+    border-radius: 50%;
+}
+#last h2{
+    font-size: 20px;
+    font-family: Ubuntu;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#last hr{
+    width: 230px;
+    height: 8px;
+    background: #f7d7c8;
+}
+#footer{
+    text-align: center;
+}
